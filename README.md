@@ -1,22 +1,28 @@
-Boost.Asio TCP Echo Server & Client
-A synchronous TCP echo server and client project built with Boost.Asio, supporting persistent and stable network communication.
-Features
-✅ Persistent server: supports loop connections for multiple clients
-✅ Interactive client: send multiple messages and receive real-time echo responses
-✅ IPv4/IPv6 dual-stack support
-✅ Automatic connection handling and error processing
-✅ Clean and modular C++ code structure
-Prerequisites
-C++11 or later
-Boost.Asio library
-Visual Studio 2022 (with .sln project file included)
-How to Run
-Open Sync_TCP.sln with Visual Studio 2022
-Build and run Sync_Server first (TCP server)
-Build and run Sync_Client (TCP client)
-Input messages in the client console, and the server will echo back the data
-Project Structure
-Sync_Server/: Source code of the TCP echo server
-Sync_Client/: Source code of the TCP client
-.gitignore: Git ignore configuration for build files
-Sync_TCP.sln: Visual Studio solution file
+# Boost.Asio TCP Echo Server (Single Client)
+A simple synchronous TCP echo server and client implemented with Boost.Asio.
+
+## Project Introduction
+This is a **basic network programming demo** for learning TCP communication and Boost.Asio.
+The server can handle **one client at a time** and provides persistent echo communication.
+
+## Features
+- ✅ Persistent message interaction
+- ✅ IPv4 & IPv6 dual-stack support
+- ✅ Clean synchronous blocking model
+- ✅ Complete error handling
+- ✅ Simple and readable code structure
+
+## Tech Stack
+- C++11
+- Boost.Asio
+- TCP/IP Protocol
+
+## How to Run
+1. Open the solution file in Visual Studio
+2. Run the **server** first
+3. Run the **client**
+4. Send messages in the client console, the server will echo back
+
+## Note
+This is a **single-client server** for learning purposes.
+It processes one client connection and waits for a new one after disconnection.

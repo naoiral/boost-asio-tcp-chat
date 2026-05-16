@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Sync_Client/Sync_Client.vcxproj" Id="482e6f91-c8f8-466d-8aca-a92b15dcb2c8" />
+  <Project Path="Sync_Server/Sync_Server.vcxproj" Id="cf5de910-dca9-40c5-9edf-4bf8a9ece74f" />
+</Solution>

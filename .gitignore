@@ -1,0 +1,15 @@
+# 编译生成的文件
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# VS项目文件夹
+.vs/
+x64/
+Debug/
+Release/
+*.vcxproj
+*.vcxproj.user
+*.sln
